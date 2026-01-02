@@ -40,7 +40,7 @@ if st.button("Summarize"):
     try:
         with st.spinner("Fetching content..."):
 
-            # ← Model initialized here only
+            # Model initialized here only
             model = ChatGroq(
                 model="llama-3.1-8b-instant",
                 groq_api_key=groq_api_key
